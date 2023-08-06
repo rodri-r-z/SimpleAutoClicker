@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+        <title>SimpleAutoClicker</title>
+    </head>
+    <body>
+        <div id="app">
+            <p>Simple Auto Clicker</p>
+            <div class="warningBox">
+                <i class="bi bi-stars"></i>
+                <span>Warning: Using this to cheat is punishable in online games.</span>
+            </div>
+            <div class="flex">
+                <p>Start key</p>
+                <div id="key">...</div>
+            </div>
+            <p><strong>Limitations:</strong> This program may use a lot of system resources because it is <strong>always listening</strong> for keypresses, and <strong>automatically clicking</strong>.</p>
+            <p><strong>Disclaimer:</strong> This program is <strong>not</strong> affiliated with any game and is <strong>only</strong> for educational purposes.</p>
+        </div>
+        <!-- You can also require other files to run in this process -->
+        <script src="./renderer.js"></script>
+    </body>
+</html>

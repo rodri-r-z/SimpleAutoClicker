@@ -1,0 +1,27 @@
+{
+  "name": "simpleautoclicker",
+  "version": "1.0.0",
+  "description": "Simple autoclicker.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Rodrigo R.",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.3.2"
+  },
+  "dependencies": {
+    "@jitsi/robotjs": "^0.6.13",
+    "bootstrap-icons": "^1.10.5",
+    "node-global-key-listener": "^0.1.1",
+    "robotjs": "^0.6.0"
+  }
+}
